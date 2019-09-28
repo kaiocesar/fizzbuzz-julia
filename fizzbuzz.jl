@@ -1,5 +1,5 @@
 println("Digite um número")
-numero = parse("Float64", readline())
+numero = readline()
 
 if rem(numero, 3) == 0 && rem(numero,5) == 0
 	println("O numero ", numero, " é multiplo de 3 e 5")
